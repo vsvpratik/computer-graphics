@@ -1,0 +1,5 @@
+img=imread('peppers.png');
+bright_img=img+50;%Increase brightness
+
+imshowPair(img,bright_img,'montage');
+title('Original Image (Left) and Brightness Image (Right)');

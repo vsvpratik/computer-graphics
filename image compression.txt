@@ -1,0 +1,6 @@
+img=imread('peppers.png');
+Small_img=imresize(img,0.5);
+big_img=imresize(small_img,2);
+
+imshowpair(img,big_img,'montage');
+title('Original Image (Left) and Compressed Reconstructed Image(Right)');

@@ -1,0 +1,10 @@
+img=imread('peppers.png');
+
+red = img(:, : , 1);
+green = img(:, : , 2);
+blue = img(:, : , 3);
+
+Subplot(2,2,1); inshow(img);title('original');
+Subplot(2,2,2); inshow(img);title('Red Channel');
+Subplot(2,2,3); inshow(green);title('green channel');
+Subplot(2,2,4); inshow(blue);title('blue channel');
